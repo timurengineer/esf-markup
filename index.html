@@ -1,0 +1,239 @@
+<html>
+<head>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: OpenSans;
+    }
+    .header {
+      background: #ffffff;
+    }
+    .section {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5px;
+      align-items: center;
+      max-width: 950px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .header-inner {
+      height: 100px;
+      background: #ffffff;
+    }
+    .title {
+      font-family: Cuprum;
+      font-size: 36px;
+      letter-spacing: 1.8px;
+      color: #0194bf;
+    }
+    .language {
+      font-size: 16px;
+      color: #0194bf;
+    }
+    .language-select {
+      height: 49px;
+      background: none;
+      border: none;
+      font-size: 16px;
+      color: #0194bf;
+      cursor: pointer;
+    }
+    .language-select:hover {
+      background: #cdcdcd;
+    }
+    .main {
+      background-image: linear-gradient(to top, #729246, #0194bf);
+    }
+    .main-inner {
+      height: 600px;
+    }
+    .features {
+    }
+    .features-inner {
+      height: 440px;
+    }
+    .footer {
+      background-color: #38393c;
+    }
+    .footer-inner {
+      height: 60px;
+      color: #a0a0a0;
+      justify-content: flex-end;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 360px;
+      height: 232px;
+      background-color: #38393c;
+      padding: 30px;
+      color: #cdcdcd;
+      line-height: 1.88;
+      letter-spacing: 0.8px;
+    }
+    .select-env {
+      position: relative;
+      width: 330px;
+      height: 40px;
+      background: #cdcdcd;
+      border-radius: 5px;
+    }
+    .select-env:hover {
+      cursor: pointer;
+    }
+    .env-switch {
+      height: 34px;
+      width: 160px;
+      background: #38393c;
+      position: absolute;
+      border-radius: 5px;
+      top: 3px;
+    }
+    .env-switch-left {
+      left: 3px;
+    }
+    .env-switch-right {
+      right: 3px;
+    }
+    .prod-text {
+      display: inline-block;
+      width: 160px;
+    }
+    .test-text {
+      display: inline-block;
+      width: 160px;
+      color: #38393c;
+    }
+    .select-button {
+      width: 330px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: #729246;
+      border: unset;
+      color: #ffffff;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      cursor: pointer;
+      font-family: OpenSans;
+    }
+    .select-button:hover {
+      background-color: #617c3c;
+    }
+    .description {
+      color: #cdcdcd;
+    }
+    .description-title {
+      height: 70px;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+    .description-body {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 2.57;
+      letter-spacing: 0.7px;
+    }
+    .feature {
+      height: 200px;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+    }
+    .feature-text {
+      font-size: 16px;
+      line-height: 2.25;
+      letter-spacing: 0.8px;
+      color: #0c4862;
+    }
+  </style>
+  <title>ESF Exporter</title>
+</head>
+<body>
+  <div class="header">
+    <div class="section header-inner">
+      <div class="title">ESF Exporter</div>
+      <div class="language">
+        <select name="select" class="language-select">
+          <option value="value1">Russian</option> 
+          <option value="value2" selected>English</option>
+          <option value="value3">Kazakh</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="section main-inner">
+      <div class="description">
+        <div class="description-title">
+          Export ESF invoices to PDF with ease
+        </div>
+        <div class="description-body">
+          - Find invoices using multiple search criteria<br>
+          - Batch export to ZIP file, if you need to export multiple invoices<br>
+          - Log in, using your ESF credentials. No need for a separate account
+        </div>
+      </div>
+      <div class="login-form">
+        <div>Browse authentication certificate on your computer to get started</div>
+        <div class="select-env" id="env">
+          <div class="prod-text">Production</div>
+          <div class="test-text">Test</div>
+          <div class="env-switch env-switch-left" id="env-tumbler"></div>
+        </div>
+        <button class="select-button">Select Certificate</button>
+      </div>
+    </div>
+  </div>
+  <div class="features">
+    <div class="section features-inner">
+      <div class="feature">
+        <img src="lock.svg" alt="lock"><br>
+        <div class="feature-text">
+          We do not store your informtation<br>
+          No logging of your activity
+        </div>
+      </div>
+      <div class="feature">
+        <img src="doc.svg" alt="doc"><br>
+        <div class="feature-text">
+          Export to PDF is availabe<br>
+          More formats are coming soon
+        </div>
+      </div>
+      <div class="feature">
+        <img src="bank.svg" alt="bank"><br>
+        <div class="feature-text">
+          Print form structure complies<br>
+          with official ESF rules
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="section footer-inner">Get test certificates</div>
+  </div>
+  <script>
+    var envSwitch = 'left';
+    var el = document.getElementById('env');
+    el.addEventListener('click', () => {
+      var tumbler = document.getElementById('env-tumbler');
+      if (envSwitch === 'left') {
+        envSwitch = 'right';
+        tumbler.classList.remove('env-switch-left');
+        tumbler.classList.add('env-switch-right');
+      } else {
+        tumbler.classList.remove('env-switch-right');
+        tumbler.classList.add('env-switch-left');
+        envSwitch = 'left';
+      }
+    });
+  </script>
+</body>
+</html>
