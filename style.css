@@ -126,16 +126,20 @@ body {
     color: #cdcdcd;
   }
   .description-title {
-    height: 70px;
-    font-size: 24px;
+    width: 521px;
+    height: 73px;
+    font-size: 30px;
+    line-height: 1.67;
     font-weight: 600;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
   }
   .description-body {
-    font-size: 14px;
+    width: 486px;
+    height:18px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 2.57;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.9px;
   }
   .feature {
     height: 200px;
