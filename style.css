@@ -113,13 +113,13 @@ body {
     color: #ffffff;
   }
   .description-title {
-    width: 550px;
+    width: 575px;
     height: 73px;
-    font-size: 24px;
-    line-height: 1.67;
+    font-size: 28px;
+    line-height: 50px;
     font-weight: 600;
-    letter-spacing: 1.5px;
-    margin-top: 163px;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
   }
   .description-body {
     width: 550px;
