@@ -34,7 +34,7 @@ body {
   }
   .language {
     font-family: 'Open Sans';
-    font-size: 16px;
+    font-size: 15px;
     color: #0194bf;
   }
   .language-select {
@@ -46,7 +46,6 @@ body {
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
-    display: block;
     cursor: pointer;
   }
   .language-select:hover {
@@ -113,17 +112,13 @@ body {
     color: #ffffff;
   }
   .description-title {
-    width: 575px;
-    height: 73px;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 50px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   .description-body {
-    width: 550px;
-    height:18px;
     font-size: 18px;
     font-weight: 600;
     line-height: 2.57;
