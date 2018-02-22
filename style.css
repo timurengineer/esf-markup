@@ -29,27 +29,33 @@ body {
     font-family: 'Open Sans';
     text-align: right;
     color: #0194bf;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
+    margin-left: 550px;
   }
   .language {
     font-family: 'Open Sans';
     font-size: 15px;
     color: #0194bf;
+    background-color:#ffffff; 
   }
   .language-select {
+    font-family: 'Open Sans';
     text-decoration: none;
+    background-color:#ffffff;
+    border: 0;
     margin: 0;
-    padding: 10px;
-    text-align: right;
+    box-shadow: 0;
+    padding: 0;
+    text-align: left;
     color: #0194bf;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 24px;
     cursor: pointer;
   }
   .language-select:hover {
-    background: #cdcdcd;
+    background: #ffffff;
   }
   .main {
     background-image: linear-gradient(to top, #729246, #0194bf);
