@@ -46,13 +46,17 @@ body {
     border: 0;
     margin: 0;
     box-shadow: 0;
-    padding: 0;
+    padding: 15;
     text-align: left;
     color: #0194bf;
     font-size: 15px;
     font-weight: 600;
     line-height: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     cursor: pointer;
+    background: url(/home/yerbol/esf/esf-markup/images/svg.png) 100% no-repeat;
   }
   .language-select:hover {
     background: #ffffff;
