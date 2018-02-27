@@ -56,13 +56,14 @@ body {
     -moz-appearance: none;
     appearance: none;
     cursor: pointer;
-    background: url(/home/yerbol/esf/esf-markup/images/svg.png) 100% no-repeat;
+    background: url(images/droparrow.png) 100% no-repeat;
   }
   .language-select:hover {
     background: #ffffff;
   }
   .main {
-    background-image: linear-gradient(to top, #729246, #0194bf);
+    background-image: url(headline-background.jpg);
+    background-size: cover;
   }
   .main-inner {
     height: 474px;
