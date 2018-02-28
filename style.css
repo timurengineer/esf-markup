@@ -27,11 +27,12 @@ body {
   }
   .contact {
     font-family: 'Open Sans';
+    flex-grow: 1;
+    align-items: flex-end;
     text-align: right;
     color: #0194bf;
     font-size: 15px;
     font-weight: 600;
-    margin-left: 550px;
   }
   .language {
     font-size: 15px;
@@ -45,8 +46,10 @@ body {
     border: 0;
     margin: 0;
     box-shadow: 0;
-    padding: 15;
+    padding-left: 20;
+    padding-right: 15;
     text-align: left;
+    align-items: flex-end;
     color: #0194bf;
     font-size: 15px;
     font-weight: 600;
@@ -58,7 +61,6 @@ body {
     background: url(images/droparrow.png) 100% no-repeat;
   }
   .language-select:hover {
-    background: #ffffff;
     color: #006d8f
   }
   .main {
