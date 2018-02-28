@@ -34,13 +34,12 @@ body {
     margin-left: 550px;
   }
   .language {
-    font-family: 'Open Sans';
     font-size: 15px;
     color: #0194bf;
     background-color:#ffffff; 
   }
   .language-select {
-    font-family: 'Open Sans';
+    font-family: inherit;
     text-decoration: none;
     background-color:#ffffff;
     border: 0;
@@ -60,6 +59,7 @@ body {
   }
   .language-select:hover {
     background: #ffffff;
+    color: #006d8f
   }
   .main {
     background-image: url(headline-background.jpg);
