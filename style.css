@@ -27,32 +27,45 @@ body {
   }
   .contact {
     font-family: 'Open Sans';
+    flex-grow: 1;
+    align-items: flex-end;
     text-align: right;
     color: #0194bf;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
   }
   .language {
-    font-family: 'Open Sans';
     font-size: 15px;
     color: #0194bf;
+    background-color:#ffffff; 
   }
   .language-select {
+    font-family: inherit;
     text-decoration: none;
+    background-color:#ffffff;
+    border: 0;
     margin: 0;
-    padding: 10px;
-    text-align: right;
+    box-shadow: 0;
+    padding-left: 20;
+    padding-right: 15;
+    text-align: left;
+    align-items: flex-end;
     color: #0194bf;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     cursor: pointer;
+    background: url(images/droparrow.png) 100% no-repeat;
   }
   .language-select:hover {
-    background: #cdcdcd;
+    color: #006d8f
   }
   .main {
-    background-image: linear-gradient(to top, #729246, #0194bf);
+    background-image: url(headline-background.jpg);
+    background-size: cover;
   }
   .main-inner {
     height: 474px;
