@@ -66,6 +66,7 @@ body {
   .main {
     background-image: url(headline-background.jpg);
     background-size: cover;
+    background-position: center;
   }
   .main-inner {
     height: 474px;
@@ -90,23 +91,28 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 360px;
-    height: 232px;
+    min-width: 390px;
+    height: 230px;
     background-color: #38393c;
-    padding: 30px;
     color: #cdcdcd;
     line-height: 1.88;
     letter-spacing: 0.8px;
   }
-  .select-env:hover {
-    cursor: pointer;
+  .first-line {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
   }
   .test-text {
     display: inline;
-    width: 100px;
     color: #a0a0a0;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 20px;
   }
-  .select-button {
+  label {
+    cursor: pointer;
     width: 330px;
     height: 40px;
     border-radius: 5px;
@@ -115,11 +121,22 @@ body {
     color: #e9e3e3;
     font-size: 16px;
     letter-spacing: 0.8px;
-    cursor: pointer;
     font-family: OpenSans;
+    text-align: center;
+  }
+    #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
   }
   .select-button:hover {
     background-color: #617c3c;
+  }
+  .select-env {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
   }
   .description {
     color: #ffffff;
@@ -142,6 +159,7 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .feature-text {
     font-size: 16px;
@@ -156,15 +174,22 @@ body {
     align-items: center;
     align-self: center
     width: 360px;
-    height: 295px;
+    height: 200px;
     background-color: #ffffff;
     padding: 30px;
     color: #38393c;
     line-height: 1.88;
-    letter-spacing: 0.8px;
+    font-size: 16px;
+    letter-spacing: 0.6px;
   }  
   .test-text2 {
     display: inline;
     width: 100px;
     color: #a0a0a0;
+    font-size: 12px;
+
+  }
+  .image {
+    max-width: 50%;
+    max-height: 50%;
   }
