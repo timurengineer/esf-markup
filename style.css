@@ -77,14 +77,26 @@ body {
     height: 392px;
   }
   .footer {
-    background-color: #38393c;
+    background-color: #38393c;      
+    display: flex;  
+    justify-content:flex-end;
   }
-  .footer-inner {
+  .footer-terms {
     height: 58px;
     color: #a0a0a0;
-    justify-content: flex-end;
     font-size: 12px;
     letter-spacing: 0.6px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .footer-contacts {
+    height: 58px;
+    color: #a0a0a0;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-top: 20px;
   }
   .login-form {
     display: flex;
