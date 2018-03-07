@@ -131,12 +131,12 @@ body {
     position: absolute;
     z-index: -1;
   }
+  label:hover {
+    background-color: #617c3c;
+  }
   .browse-button {
     padding-top: 20px;
     padding-bottom: 10px;
-  }
-  .select-button:hover {
-    background-color: #617c3c;
   }
   .select-env {
     -webkit-appearance: none;
