@@ -89,7 +89,7 @@ body {
   .login-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     min-width: 390px;
     height: 230px;
@@ -102,13 +102,15 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 35px;
   }
   .test-text {
-    display: inline;
+    display: block;
     color: #a0a0a0;
     font-size: 12px;
     letter-spacing: 0.6px;
+    text-decoration: none;
+    padding-top: 25px;
     padding-bottom: 20px;
   }
   label {
@@ -123,12 +125,28 @@ body {
     letter-spacing: 0.8px;
     font-family: OpenSans;
     text-align: center;
-    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 0px;
   }
     #upload-photo {
     opacity: 0;
     position: absolute;
     z-index: -1;
+  }
+  .browse-button {
+    align-items: center;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #729246;
+    border: unset;
+    color: #e9e3e3;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-family: OpenSans;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .select-button:hover {
     background-color: #617c3c;
@@ -188,7 +206,7 @@ body {
     width: 100px;
     color: #a0a0a0;
     font-size: 12px;
-
+    text-decoration: none;
   }
   .image {
     max-width: 50%;
