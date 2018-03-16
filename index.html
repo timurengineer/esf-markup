@@ -9,13 +9,15 @@
   <div class="header">
     <div class="section header-inner">
       <div class="title">ESF Exporter</div>
-      <div class="contact">Contact Us</div>
-      <div class="language">
-        <select name="select" class="language-select">
-          <option value="value1">Russian</option> 
-          <option value="value2" selected>English</option>
-          <option value="value3">Kazakh</option>
-        </select>
+      <div class="nav-bar">
+        <div class="nav-item">Contact Us</div>
+        <div class="nav-item">
+          <select name="select" class="language-select">
+            <option value="value1">Russian</option> 
+            <option value="value2" selected>English</option>
+            <option value="value3">Kazakh</option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
@@ -70,14 +72,20 @@
     </div>
   </div>
   <div class="call-to-action">
-      <div>Start by browsing your authentifiation certificate</div>
-      <button class="select-button">Browse Certificate</button>
-      <div class="select-env" id="env">
+      <div class="CTA-inner">Start by browsing your authentifiation certificate</div>
+      <div class="browse-button">
+        <label for="upload-photo">Browse Certificate</label>
+        <input type="file" name="photo" id="upload-photo" />
+      </div>
+      <div class="select-env-bottom" id="env">
       <div><a href="http://kgd.gov.kz/sites/default/files/ESF/testovye_ecp_dekabr_2017.zip" class="test-text2"> Download test certificates</a></div>
       </div>
   </div>
   <div class="footer">
-    <div class="section footer-inner">Get test certificates</div>
+    <div class="section footer-inner">
+      <div class="footer-items">Terms of Service</div>
+      <div class="footer-items">Contact Us</div>
+    </div>
   </div>
   <script>
     var envSwitch = 'left';
