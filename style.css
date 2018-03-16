@@ -26,7 +26,6 @@ body {
     color: #0194bf;
   }
   .contact {
-    font-family: 'Open+Sans';
     flex-grow: 1;
     align-items: flex-end;
     text-align: right;
