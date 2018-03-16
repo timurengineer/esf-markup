@@ -81,15 +81,9 @@ body {
     }
   .footer-inner {
     height: 58px;
+    justify-content: flex-end;
   }
-  .footer-terms {
-    color: #a0a0a0;
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    flex-grow: 1;
-    text-align: right;
-  }
-  .footer-contacts {
+  .footer-items {
     color: #a0a0a0;
     font-size: 12px;
     letter-spacing: 0.6px;
