@@ -179,17 +179,17 @@ body {
     align-items: center;
     align-self: center;
     background-color: #f1fcff;
-    height: 200px;
+    height: 300px;
     color: #38393c;
     line-height: 1.88;
     font-size: 16px;
     letter-spacing: 0.6px;
   }  
   .CTA-inner {
-    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .select-env-bottom {
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .test-text2 {
     display: inline;
